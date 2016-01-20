@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTakToe</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" class="css">
+  <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-8">
+        <h1>TikTakToe</h1>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div class="col-xs-4">
+        <div>Player</div>
+          <div id="currentPlayer">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12 playerInput">
+        <div class="userName"><lable for="userName"> User Name </lable>
+          <input type="text" id="userName">
+          <button id="submit">submit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+      </div>
+  </div>
+
+  <div class="gameBox">
+  <div class="row-fluid">
+    <div id="cell1" class="col-xs-4 text-center top left">TL</div>
+    <div id="cell2" class="col-xs-4 text-center top middle">TM</div>
+    <div id="cell3" class="col-xs-4 text-center top right">TR</div>
+  </div>
+  <div class="row-fluid">
+    <div id="cell4" class="col-xs-4 text-center center left">ML</div>
+    <div id="cell5" class="col-xs-4 text-center center middle">MM</div>
+    <div id="cell6" class="col-xs-4 text-center center right">MR</div>
+  </div>
+  <div class="row-fluid">
+    <div id="cell7" class="col-xs-4 text-center bottom left">BL</div>
+    <div id="cell8" class="col-xs-4 text-center bottom middle">BM</div>
+    <div id="cell9" class="col-xs-4 text-center bottom right">BR</div>
+  </div>
+</div>
+
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

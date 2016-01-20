@@ -1,0 +1,41 @@
+.top {
+  border-bottom: 3px solid black;
+  height: 10vw;
+}
+
+.center{
+  border-bottom: 3px solid black;
+  height: 10vw;
+}
+
+.middle {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.bottom {
+  height: 10vw;
+}
+.container {
+
+}
+
+.left {
+  /*width: 10vw;*/
+}
+
+.right {
+  /*width: 10vw*/
+}
+
+.gameBox {
+  width: 30vw;
+
+}
+
+.container{
+  background-image: url('http://i47.photobucket.com/albums/f184/vsaaa/3D/tic_tac_toe_1440x900.jpg');
+  background-size: 100%;
+}
+
+background
